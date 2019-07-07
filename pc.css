@@ -1,0 +1,85 @@
+@charset "UTF-8";
+#greeting {
+  order: 2;
+  color: #ffffff;
+  align-self: center;
+}
+#navbar {
+  position: sticky;
+	background-color: #00001100;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 35px;
+	padding: 5px 5px 5px 5px;
+	top: 5px;
+	transition: background-color 0.5s;
+	
+}
+#navsect-nav {
+  order: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 5px;
+}
+#navsect-disp {
+  order: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+#logo-navbar {
+  height: 100%;
+  order: 1;
+}
+#navbar.scrolled {
+  background-color: #00001199;
+}
+.navbutton {
+  background-color: #2288cc;
+  height: 100%;
+  width: 85px;
+  border: none;
+  border-radius: 2px;
+  margin: 0 5px 0 5px;
+  transition: border-radius 0.5s, background-color 0.5s;
+}
+.navbutton:hover {
+  border-radius: 10px;
+  background-color: #3399dd;
+}
+.navbutton:focus {
+  outline: none;
+  background-color: #22cc88;
+  border-radius: 10px;
+}
+.navbarsect {
+  height: 100%;
+}
+.layout {
+  margin: 0 0 0 0;
+}
+body {
+  background-image: url("durb-1.png");
+  margin: 0 0 0 0;
+  background-repeat: no-repeat;
+  background-color: skyblue;
+}
+input, button, select, textarea, optgroup, option, html, body, form, fieldset, table, tr, td, img {
+  font-family: 'Muli', sans-serif;
+}
+.scrolled {
+  filter: blur 5px;
+}
+
+/* Development styles */
+/*.forcescrollbar {
+  display: none;
+}*/
+/* {
+  outline: lime 0.5px dotted;
+}*/

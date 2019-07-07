@@ -1,0 +1,94 @@
+{
+  "roles": [
+    {
+      "Id": 22728770,
+      "Name": "Thorough Verification",
+      "Rank": 1
+    },
+    {
+      "Id": 32060864,
+      "Name": "On Hiatus",
+      "Rank": 2
+    },
+    {
+      "Id": 18118036,
+      "Name": "Members",
+      "Rank": 3
+    },
+    {
+      "Id": 17996714,
+      "Name": "Gamer",
+      "Rank": 4
+    },
+    {
+      "Id": 19879959,
+      "Name": "Known Developer",
+      "Rank": 5
+    },
+    {
+      "Id": 22145565,
+      "Name": "Developer Part Time",
+      "Rank": 6
+    },
+    {
+      "Id": 22145573,
+      "Name": "Developer Full Time",
+      "Rank": 7
+    },
+    {
+      "Id": 30764531,
+      "Name": "Music Composers",
+      "Rank": 8
+    },
+    {
+      "Id": 32685093,
+      "Name": "Artist \/ Graphical Artist",
+      "Rank": 9
+    },
+    {
+      "Id": 28835892,
+      "Name": "Quality Assurance",
+      "Rank": 10
+    },
+    {
+      "Id": 32685158,
+      "Name": "Security Auditor",
+      "Rank": 14
+    },
+    {
+      "Id": 19999203,
+      "Name": "Research and Development",
+      "Rank": 19
+    },
+    {
+      "Id": 22145599,
+      "Name": "Facility Administration",
+      "Rank": 247
+    },
+    {
+      "Id": 19999222,
+      "Name": "Administrative Officer",
+      "Rank": 248
+    },
+    {
+      "Id": 19866731,
+      "Name": "Chief Technology Officer",
+      "Rank": 249
+    },
+    {
+      "Id": 17967550,
+      "Name": "Chief Experience Officer",
+      "Rank": 250
+    },
+    {
+      "Id": 19866732,
+      "Name": "Chief Executive Officer",
+      "Rank": 251
+    },
+    {
+      "Id": 17967549,
+      "Name": "Chairman",
+      "Rank": 255
+    }
+  ]
+}
