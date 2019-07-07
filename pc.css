@@ -68,6 +68,7 @@ body {
   margin: 0 0 0 0;
   background-repeat: no-repeat;
   background-color: skyblue;
+  background-clip: border-box;
 }
 input, button, select, textarea, optgroup, option, html, body, form, fieldset, table, tr, td, img {
   font-family: 'Muli', sans-serif;
