@@ -12,7 +12,7 @@ $(function() {
 
 // Random greeting messages
 function setGreeting(obj) {
-  var greetings = ["Call him GREEEEEEEEEEEEEism.",
+  var greetings = ["Call him Geeism.",
     "I can't even get here without buying a boat.",
     "totally not bots",
     "Super big brain",
