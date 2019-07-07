@@ -23,7 +23,7 @@ function setGreeting(obj) {
     "It can't be a funny voicechat convo without TechnologicalByte's mic breaking.",
     "<strike>DontLuck2 di...</strike> <strong>HEY!</strong>",
     "y u do dis",
-    "<strong>davidgmodplayerALT</strong> is typing..."];
+    "i do logic about 85% of the time"];
   var min=0;
   var max=greetings.length;
   var random =Math.floor(Math.random() * (max - min)) + min;
