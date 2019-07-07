@@ -23,7 +23,8 @@ function setGreeting(obj) {
     "It can't be a funny voicechat convo without TechnologicalByte's mic breaking.",
     "<strike>DontLuck2 di...</strike> <strong>HEY!</strong>",
     "y u do dis",
-    "i do logic about 85% of the time"];
+    "i do logic about 85% of the time",
+    "What will Roblox's next logo look like?"];
   var min=0;
   var max=greetings.length;
   var random =Math.floor(Math.random() * (max - min)) + min;
