@@ -6,6 +6,9 @@
   order: 2;
   color: #ffffff;
   align-self: center;
+  font-size: 1.25vw;
+  margin: 0 7.5px 0 7.5px;
+  text-align: center;
 }
 #navbar {
   position: sticky;
@@ -33,11 +36,13 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 #logo-navbar {
   height: 100%;
   order: 1;
+  object-fit: cover;
+  object-position: 0 0;
 }
 #navbar.scrolled {
   background-color: #00001199;
@@ -79,21 +84,20 @@ input, button, select, textarea, optgroup, option, html, body, form, fieldset, t
 .splash {
   position: absolute;
   border: #ffffff 0px solid;
-  left: 15%;
+  left: 25%;
   top: 30%;
   height: 40%;
-  width: 70%;
+  width: 50%;
   padding: 30px;
   text-align: center;
-  /*color: white;*/
-  color: rgb(0, 255, 255);
-  mix-blend-mode: difference;
-  background-color: hsla(204, 20%, 47%, 0);
   border-radius: 20px;
   display: flex;
+  color: hsla(15, 83%, 41%, 1);
+  font-weight: bold;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 hsla(15, 43%, 47%, 1);
 }
 .background {
   position: absolute;
@@ -103,14 +107,13 @@ input, button, select, textarea, optgroup, option, html, body, form, fieldset, t
   top: 0;
   background-image: url("durb-1.png");
   background-repeat: no-repeat;
+  background-size: cover;
   filter: blur(2px);
   z-index: 0;
 }
-
-/* Development styles */
-/*.forcescrollbar {
-  display: none;
-}*/
-/* {
-  outline: lime 0.5px dotted;
-}*/
+.buttonline {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
