@@ -6,6 +6,9 @@
   order: 2;
   color: #ffffff;
   align-self: center;
+  font-size: 1.25vw;
+  margin: 0 7.5px 0 7.5px;
+  text-align: center;
 }
 #navbar {
   position: sticky;
@@ -33,11 +36,13 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 #logo-navbar {
   height: 100%;
   order: 1;
+  object-fit: cover;
+  object-position: 0 0;
 }
 #navbar.scrolled {
   background-color: #00001199;
@@ -53,7 +58,7 @@
 }
 .navbutton:hover {
   border-radius: 10px;
-  background-color: #3399dd;
+  background-color: #dd9933;
 }
 .navbutton:focus {
   outline: none;
@@ -68,7 +73,6 @@
 }
 body {
   margin: 0 0 0 0;
-  background-image: none;
   background-color: black;
 }
 input, button, select, textarea, optgroup, option, html, body, form, fieldset, table, tr, td, img {
@@ -80,19 +84,43 @@ input, button, select, textarea, optgroup, option, html, body, form, fieldset, t
 .splash {
   position: absolute;
   border: #ffffff 0px solid;
-  left: 15%;
+  left: 25%;
   top: 30%;
   height: 40%;
-  width: 70%;
+  width: 50%;
   padding: 30px;
   text-align: center;
-  /*color: white;*/
-  color: rgb(255, 255, 0);
-  mix-blend-mode: difference;
-  background-color: hsla(204, 20%, 47%, 0);
   border-radius: 20px;
   display: flex;
+  color: #ffffff;
+  font-weight: bold;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#ev-banner-desc {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+#ev-banner-mini {
+  color: #555;
+  font-size: 9pt;
+  margin-top: 0;
+}
+.background {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  top: 0;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+.buttonline {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }

@@ -1,9 +1,12 @@
-
+---
+permalink: /404.html
+---
 
 <!doctype html>
+<!-- e E e E e -->
 <html>
   <head>
-    <title>Yeah, that place doesn't exist.</title>
+    <title>Discover!</title>
     <link rel="icon" href="discovericon.png">
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <meta charset="UTF-8">
@@ -11,11 +14,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="connectrbx.js"></script> <!-- API for showing things from roblox -->
     <script src="topbar.js"></script>
-    <script src="events.js"></script>
-    <link href="pc.css" rel="stylesheet" type="text/css">
+    <link href="error.css" rel="stylesheet" type="text/css">
   </head>
-</html>
 
----
-permalink: /404.html
----
+  <body onload="document.getElementsByName('greeting').forEach(setGreeting);">
+    <div class="background"></div>
+    <div class="layout navbar" id="navbar">
+      <p class="greeting" id="greeting" name="greeting"></p>
+      
+      <div class="layout navbar navbarsect" id="navsect-disp">
+        <img class="navdisp-content" src="discoverlogo.png" id="logo-navbar">
+      </div>
+      
+      <div class="layout navbar navbarsect" id="navsect-nav">
+        <button class="navbutton" id="nav-home" style="order: 1;" onclick="window.location = 'index.html'">Home</button>
+        <button class="navbutton" id="nav-home" style="order: 2;" onclick="window.location = 'index.html'">Games</button>
+        <button class="navbutton" id="nav-home" style="order: 3;" onclick="window.location = 'index.html'">Music</button>
+        <button class="navbutton" id="nav-home" style="order: 4; width: 90px;" onclick="window.location = 'https://www.roblox.com/groups/2687440/Discover#!/about'">Group Page</button>
+      </div>
+    </div>
+    
+    <div class="layout splash" id="splash">
+      <h1 class="splashcontent" id="ev-banner-title">oops we did a mistake</h1>
+      <p class="splashcontent" id="ev-banner-desc">We couldn't find the page you were looking for! Sorry about that!</p>
+      <p class="splashcontent" id="ev-banner-mini">HTTP Error 404 - Page Not Found</p>
+      <div class="buttonline">
+        <button class="navbutton" id="nav-home" style="order: 1;" onclick="history.back()">Go Back</button>
+        <button class="navbutton" id="nav-home" style="order: 1;" onclick="window.location = 'index.html'">Homepage</button>
+      </div>
+    </div>
+  </body>
+</html>
