@@ -8,27 +8,32 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,700">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="connectrbx.js" important></script> <!-- API for showing things from roblox -->
+    <script src="connectrbx.js"></script> <!-- API for showing things from roblox -->
     <script src="topbar.js"></script>
+    <script src="events.js"></script>
     <link href="pc.css" rel="stylesheet" type="text/css">
   </head>
 
   <body onload="document.getElementsByName('greeting').forEach(setGreeting);">
+    <div class="background"></div>
     <div class="layout navbar" id="navbar">
-      <p class="navbar-content greeting" id="greeting" name="greeting"></p>
+      <p class="greeting" id="greeting" name="greeting"></p>
       <div class="layout navbar navbarsect" id="navsect-disp">
         <img class="navdisp-content" src="discoverlogo.png" id="logo-navbar">
       </div>
       
       <div class="layout navbar navbarsect" id="navsect-nav">
-        <button class="navbutton" id="nav-home" style="order: 1;">Home</button>
-        <button class="navbutton" id="nav-home" style="order: 2;">Games</button>
-        <button class="navbutton" id="nav-home" style="order: 3;">Music</button>
+        <button class="navbutton" id="nav-home" style="order: 1;" onclick="window.location = 'index.html'">Home</button>
+        <button class="navbutton" id="nav-home" style="order: 2;" onclick="window.location = 'index.html'">Games</button>
+        <button class="navbutton" id="nav-home" style="order: 3;" onclick="window.location = 'index.html'">Music</button>
         <button class="navbutton" id="nav-home" style="order: 4; width: 90px;" onclick="window.location = 'https://www.roblox.com/groups/2687440/Discover#!/about'">Group Page</button>
       </div>
       
     </div>
-    <div class="layout splashframe"></div>
-    <div class="forcescrollbar"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>mom<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+    
+    <div class="layout splash" id="splash">
+      <h1 id="ev-banner-title">This is an example event splash title.</h1>
+      <p id="ev-banner-desc">This is an example event splash description. In the future, upcoming events will show up here.</p>
+    </div>
   </body>
 </html>

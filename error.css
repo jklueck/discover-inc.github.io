@@ -43,7 +43,7 @@
   background-color: #00001199;
 }
 .navbutton {
-  background-color: #2288cc;
+  background-color: #cc8822;
   height: 100%;
   border: none;
   border-radius: 2px;
@@ -68,6 +68,7 @@
 }
 body {
   margin: 0 0 0 0;
+  background-image: none;
   background-color: black;
 }
 input, button, select, textarea, optgroup, option, html, body, form, fieldset, table, tr, td, img {
@@ -86,7 +87,7 @@ input, button, select, textarea, optgroup, option, html, body, form, fieldset, t
   padding: 30px;
   text-align: center;
   /*color: white;*/
-  color: rgb(0, 255, 255);
+  color: rgb(255, 255, 0);
   mix-blend-mode: difference;
   background-color: hsla(204, 20%, 47%, 0);
   border-radius: 20px;
@@ -95,22 +96,3 @@ input, button, select, textarea, optgroup, option, html, body, form, fieldset, t
   justify-content: center;
   align-items: center;
 }
-.background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  background-image: url("durb-1.png");
-  background-repeat: no-repeat;
-  filter: blur(2px);
-  z-index: 0;
-}
-
-/* Development styles */
-/*.forcescrollbar {
-  display: none;
-}*/
-/* {
-  outline: lime 0.5px dotted;
-}*/

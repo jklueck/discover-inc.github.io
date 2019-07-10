@@ -1,0 +1,36 @@
+Key = What the value should be (note) [value formatting]
+-----------------------------------------
+Name = Event title (required) ["text"]
+Desc = Event description (strongly recommended) ["text"]
+AddedBy = The Roblox username of the person who added it (required) ["text"]
+ShowHomepage = If event shows on front page (required if Date is not set) [true/false]
+ShowCalendar = If event shows on the event calendar [true/false]
+Start = Start date and time (required unless End is set) [see below for date/time formatting]
+End = End date and time [see below for date/time formatting]
+BannerImage = Image to change the homepage background to while event is visible
+BannerTitle = The larger text to show on the homepage (required for homepage visibility)
+BannerDesc = The smaller text to show on the homepage
+CalendarColor = The background color of the event on the calendar.
+  See https://www.w3schools.com/colors/colors_picker.asp for valid colors.
+
+The event needs to be visible in at least one place to work.
+If there are multiple events set to show on the homepage, the last one will be shown.
+Set End but not Start for a homepage message that shows until the End date.
+  (ShowHomepage must be true)
+Any event without an AddedBy will be removed.
+
+Date formatting:
+  Date.UTC(year, month, day, hours, minutes, seconds, millisec)
+
+Dates need to be converted to UTC and all numbers need to be 1 less than the actual value.
+  
+  
+Format the events like this:
+
+var events = [
+  {Key: Value,
+  Key: Value},
+  
+  {Key: Value,
+  Key: Value}
+];
