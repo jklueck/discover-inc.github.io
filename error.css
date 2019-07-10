@@ -48,7 +48,7 @@
   background-color: #00001199;
 }
 .navbutton {
-  background-color: #cc8822;
+  background-color: #2288cc;
   height: 100%;
   border: none;
   border-radius: 2px;
@@ -58,7 +58,7 @@
 }
 .navbutton:hover {
   border-radius: 10px;
-  background-color: #dd9933;
+  background-color: #3399dd;
 }
 .navbutton:focus {
   outline: none;
