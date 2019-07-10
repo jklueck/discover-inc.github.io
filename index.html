@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,700">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="connectrbx.js"></script> <!-- API for showing things from roblox -->
-    <script src="topbar.js"></script>
     <script src="events.js"></script>
+    <script src="topbar.js"></script>
     <link href="pc.css" rel="stylesheet" type="text/css">
   </head>
 
-  <body onload="document.getElementsByName('greeting').forEach(setGreeting);">
+  <body>
     <div class="background"></div>
+    
     <div class="layout navbar" id="navbar">
       <p class="greeting" id="greeting" name="greeting"></p>
+      
       <div class="layout navbar navbarsect" id="navsect-disp">
         <img class="navdisp-content" src="discoverlogo.png" id="logo-navbar">
       </div>
@@ -29,11 +31,13 @@
         <button class="navbutton" id="nav-home" style="order: 4; width: 90px;" onclick="window.location = 'https://www.roblox.com/groups/2687440/Discover#!/about'">Group Page</button>
       </div>
       
+      <script src="topbar.js"></script> <!-- Included here instead of in head for variables -->
     </div>
     
     <div class="layout splash" id="splash">
-      <h1 id="ev-banner-title">This is an example event splash title.</h1>
-      <p id="ev-banner-desc">This is an example event splash description. In the future, upcoming events will show up here.</p>
+      <h1 class="splashcontent" id="ev-banner-title">This is an example event splash title.</h1>
+      
+      <p class="splashcontent" id="ev-banner-desc">This is an example event splash description. In the future, upcoming events will show up here. These events will be added by people with enough authority in Discover. The system for this will be finished sometime soon.</p>
     </div>
   </body>
 </html>
