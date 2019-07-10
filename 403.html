@@ -1,0 +1,42 @@
+<!doctype html>
+<!-- e E e E e -->
+<html>
+  <head>
+    <title>Discover!</title>
+    <link rel="icon" href="discovericon.png">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,700">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="connectrbx.js"></script> <!-- API for showing things from roblox -->
+    <script src="topbar.js"></script>
+    <link href="error.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body onload="document.getElementsByName('greeting').forEach(setGreeting);">
+    <div class="background"></div>
+    <div class="layout navbar" id="navbar">
+      <p class="greeting" id="greeting" name="greeting"></p>
+      
+      <div class="layout navbar navbarsect" id="navsect-disp">
+        <img class="navdisp-content" src="discoverlogo.png" id="logo-navbar">
+      </div>
+      
+      <div class="layout navbar navbarsect" id="navsect-nav">
+        <button class="navbutton" id="nav-home" style="order: 1;" onclick="window.location = 'index.html'">Home</button>
+        <button class="navbutton" id="nav-home" style="order: 2;" onclick="window.location = 'index.html'">Games</button>
+        <button class="navbutton" id="nav-home" style="order: 3;" onclick="window.location = 'index.html'">Music</button>
+        <button class="navbutton" id="nav-home" style="order: 4; width: 90px;" onclick="window.location = 'https://www.roblox.com/groups/2687440/Discover#!/about'">Group Page</button>
+      </div>
+    </div>
+    
+    <div class="layout splash" id="splash">
+      <p class="splashcontent" id="ev-banner-desc">You aren't supposed to be here. That's all we know.</p>
+      <p class="splashcontent" id="ev-banner-mini">HTTP Error 403 - Forbidden</p>
+      <div class="buttonline">
+        <button class="navbutton" id="nav-home" style="order: 1;" onclick="history.back()">Go Back</button>
+        <button class="navbutton" id="nav-home" style="order: 1;" onclick="window.location = 'index.html'">Homepage</button>
+      </div>
+    </div>
+  </body>
+</html>
